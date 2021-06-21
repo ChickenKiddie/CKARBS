@@ -11,7 +11,7 @@ sh larbs.sh
 
 That's it.
 
-## What is LARBS?
+## What is CKARBS?
 
 CKARBS is a script that autoinstalls and autoconfigures a fully-functioning
 and minimal terminal-and-vim-based Arch Linux environment.
