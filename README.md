@@ -1,4 +1,4 @@
-# Luke's Auto-Rice Bootstrapping Scripts (LARBS)
+# Chicken Kiddie's Auto-Rice Bootstrapping Scripts (LARBS)
 
 ## Installation:
 
@@ -13,16 +13,16 @@ That's it.
 
 ## What is LARBS?
 
-LARBS is a script that autoinstalls and autoconfigures a fully-functioning
+CKARBS is a script that autoinstalls and autoconfigures a fully-functioning
 and minimal terminal-and-vim-based Arch Linux environment.
 
-LARBS can be run on a fresh install of Arch or Artix Linux, and provides you
+CKARBS can be run on a fresh install of Arch or Artix Linux, and provides you
 with a fully configured diving-board for work or more customization.
 
 ## Customization
 
 By default, LARBS uses the programs [here in progs.csv](progs.csv) and installs
-[my dotfiles repo (voidrice) here](https://github.com/lukesmithxyz/voidrice),
+[my dotfiles repo (archrice) here](https://github.com/ChickenKiddie/archrice),
 but you can easily change this by either modifying the default variables at the
 beginning of the script or giving the script one of these options:
 
@@ -33,7 +33,7 @@ beginning of the script or giving the script one of these options:
 
 ### The `progs.csv` list
 
-LARBS will parse the given programs list and install all given programs. Note
+CKARBS will parse the given programs list and install all given programs. Note
 that the programs file must be a three column `.csv`.
 
 The first column is a "tag" that determines how the program is installed, ""
@@ -47,7 +47,7 @@ this information in a grammatical sentence. It also doubles as documentation
 for people who read the CSV and want to install my dotfiles manually.
 
 Depending on your own build, you may want to tactically order the programs in
-your programs file. LARBS will install from the top to the bottom.
+your programs file. CKARBS will install from the top to the bottom.
 
 If you include commas in your program descriptions, be sure to include double
 quotes around the whole description to ensure correct parsing.
@@ -63,7 +63,7 @@ which commands to run to install it. You can easily add new methods of
 installations and tags as well.
 
 Note that programs from the AUR can only be built by a non-root user. What
-LARBS does to bypass this by default is to temporarily allow the newly created
+CKARBS does to bypass this by default is to temporarily allow the newly created
 user to use `sudo` without a password (so the user won't be prompted for a
 password multiple times in installation). This is done ad-hocly, but
 effectively with the `newperms` function. At the end of installation,
