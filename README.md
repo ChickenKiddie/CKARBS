@@ -1,4 +1,4 @@
-# Chicken Kiddie's Auto-Rice Bootstrapping Scripts (LARBS)
+# Chicken Kiddie's Auto-Rice Bootstrapping Scripts (CKARBS)
 
 ## Installation:
 
